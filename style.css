@@ -1,6 +1,12 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace, sans-serif ;
     background-color: rgb(223, 192, 151);
+    box-sizing: border-box;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
 }
 
 .title {
@@ -12,6 +18,18 @@
     font-size: 52px;
 }
 
-.img-center {
-    text-align: center;
+img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid rgb(150, 36, 36);
+    width: 400px;
+    height: auto;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: brown;
 }
